@@ -12,9 +12,11 @@ export const BtnLink = styled.a `
     margin: 10px;
     padding: 15px 10px;
     border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transition: 500ms;
     &:hover{
-        background: ${colors.PALETTE5};
+        background: linear-gradient(to right ,${colors.PALETTE4},${colors.PALETTE5});
+        transition: 500ms;
     }
     @media (max-width:600px) {
         width: 85%;

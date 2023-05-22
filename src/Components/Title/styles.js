@@ -21,6 +21,7 @@ export const UserImg = styled.img `
    height: 98px;
    border-radius: 50%;
    margin-bottom: 5px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 `
 export const UserName = styled.h1 `
    font-size: 16px;
