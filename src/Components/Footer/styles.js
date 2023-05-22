@@ -12,12 +12,12 @@ export const FooterContainer = styled.div `
 `
 export const FooterText = styled.p `
     font-size: 13px;
-    color: ${colors.PALETTE3};
+    color: ${colors.PALETTE4};
 `
 export const FooterSpan = styled.span `
         color: ${colors.PALETTE5};
 `
 export const FooterCopy = styled.span `
     font-size: 11px;
-    color: ${colors.PALETTE3};
+    color: ${colors.PALETTE4};
 `

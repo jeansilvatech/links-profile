@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const colors = {
-   PALETTE1:"#264653",
+   PALETTE1:"#023047",
    PALETTE2: "#2a9d8f",
    PALETTE3: "#e9c46a",
-   PALETTE4: "#f4a261",
-   PALETTE5: "#e76f51",
+   PALETTE4: "#ffb703",
+   PALETTE5: "#fb8500",
    DEFAULT: "#FFF"
 }
 export const TitleContainer = styled.div `
@@ -13,7 +13,7 @@ export const TitleContainer = styled.div `
    justify-content: center;
    align-items: center;
    flex-direction: column;
-   color: ${colors.PALETTE3};
+   color: ${colors.PALETTE4};
    margin-bottom: 10px;
 `
 export const UserImg = styled.img `

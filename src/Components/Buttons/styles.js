@@ -3,7 +3,7 @@ import { colors } from "../Title/styles";
 
 export const BtnLink = styled.a `
     text-decoration: none;
-    background: linear-gradient(to left, ${colors.PALETTE3},${colors.PALETTE4},${colors.PALETTE5});
+    background: linear-gradient(to left,${colors.PALETTE4},${colors.PALETTE5});
     color: ${colors.PALETTE1};
     width: 400px;
     display: flex;
