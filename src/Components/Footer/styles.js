@@ -1,5 +1,4 @@
 import { styled } from "styled-components";
-import { colors } from "../Title/styles";
 
 export const FooterContainer = styled.div `
     width: 100%;
@@ -7,17 +6,20 @@ export const FooterContainer = styled.div `
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 30px;
+    color: #0a0a0a;
     
 `
 export const FooterText = styled.p `
     font-size: 13px;
-    color: ${colors.PALETTE4};
 `
 export const FooterSpan = styled.span `
-        color: ${colors.PALETTE5};
+        
 `
 export const FooterCopy = styled.span `
     font-size: 11px;
-    color: ${colors.PALETTE4};
+    letter-spacing: 3px;
+`
+export const FooterWhite = styled.span`
+    color: #ffffff;
 `

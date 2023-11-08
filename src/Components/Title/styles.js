@@ -9,15 +9,9 @@ export const colors = {
    PALETTE5: "#fb8500",
    DEFAULT: "#FFF"
 }
-export const border = keyframes `
-      0%, 100%{
-         border: 2px solid ${colors.PALETTE5}
-      }
-      25%{
-         border: 2px solid ${colors.PALETTE3}
-      }
-      50%{
-         border: 2px solid ${colors.PALETTE4}
+export const imgEnter = keyframes`
+      0%{
+         transform: rotate(90deg);
       }
 `
 export const TitleContainer = styled.div `
@@ -25,25 +19,34 @@ export const TitleContainer = styled.div `
    justify-content: center;
    align-items: center;
    flex-direction: column;
-   color: ${colors.PALETTE4};
-   margin-bottom: 10px;
+   margin-bottom: 30px;
 `
 export const UserImg = styled.img `
    width: 98px;
    height: 98px;
    border-radius: 50%;
-   border: 2px solid;
    margin-bottom: 5px;
    padding: 2px;
-   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-   animation: ${border} 5s infinite;
+   animation: ${imgEnter} 2s ease-in-out;
+   user-select: none;
 `
 export const UserName = styled.h1 `
    font-size: 16px;
    font-weight: 600;
+   color: #0a0a0a;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 `
 export const UserDescription = styled.h2 `
    font-size: 14px;
    font-weight:300;
    margin-bottom: 10px;
+   color: #0a0a0a;
+`
+export const TitleSpan = styled.span `
+   color: #fff;
+`
+export const Check = styled.img`
+   margin-left: 2px;
 `

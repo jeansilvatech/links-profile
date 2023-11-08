@@ -1,10 +1,9 @@
 import { styled } from "styled-components";
-import { colors } from "../Title/styles";
 
 export const BtnLink = styled.a `
     text-decoration: none;
-    background: linear-gradient(to left,${colors.PALETTE4},${colors.PALETTE5});
-    color: ${colors.PALETTE1};
+    border: 1px solid #C1C1C1;
+    color:#0a0a0a;
     width: 400px;
     display: flex;
     justify-content: space-around;
@@ -13,9 +12,9 @@ export const BtnLink = styled.a `
     padding: 15px 10px;
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    user-select: none;
     transition: 500ms;
     &:hover{
-        background: linear-gradient(to right ,${colors.PALETTE4},${colors.PALETTE5});
         box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
         transition: 500ms;
     }
@@ -25,4 +24,5 @@ export const BtnLink = styled.a `
 `
  export const BtnText = styled.span `
     width: 100px;
+    color: #fff;
 `

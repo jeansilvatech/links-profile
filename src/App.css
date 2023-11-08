@@ -5,5 +5,36 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(to right, #023047,#219ebc);
+}
+.vsco-logo{
+    width: 32px;
+}
+.black{
+    background-color: #0a0a0a;
+    right: 0;
+    animation: black-enter 2s ease-in-out;
+}
+@keyframes black-enter {
+    0%{
+        background-color: #ffffff;
+        transform: translateX(200px);
+    }
+}
+.white{
+    background-color: #ffffff;
+    left: 0;
+    animation: white-enter 2s ease-in-out;
+}
+@keyframes white-enter {
+    0%{
+        background-color: #0a0a0a;
+        transform: translateX(-200px);
+    }
+}
+.black,
+.white{
+    width: 50vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
 }

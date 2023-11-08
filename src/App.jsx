@@ -7,11 +7,14 @@ function App() {
 
   return (
     <div className='container'>
+      <div className="black"></div>
+      <div className="white"></div>
      <Title/>
      <Button href="https://www.linkedin.com/in/jeanpesil" name="LinkedIn" icon={<LinkedinLogo size={32} />}/>
      <Button href="https://github.com/jeansilvatech" name="GitHub" icon={<GithubLogo size={32} />}/>
      <Button href="https://www.instagram.com/jeansilvatech" name="Instagram" icon={<InstagramLogo size={32} />}/>
      <Button href="https://jeansilvatech.netlify.app" name="Portfólio"icon={<Globe size={32} />}/>
+
      <Footer/>
     </div>
   )
