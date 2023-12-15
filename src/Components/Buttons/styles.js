@@ -10,7 +10,7 @@ export const BtnLink = styled.a `
     align-items: center;
     margin: 10px;
     padding: 15px 10px;
-    border-radius: 25px;
+    border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     user-select: none;
     transition: 500ms;
